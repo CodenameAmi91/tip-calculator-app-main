@@ -1,0 +1,96 @@
+*{
+    font-family: 'Space Mono', monospace;
+}
+body{
+    background-color: hsl(185, 41%, 84%);
+    
+}
+
+.container{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+.bttn {
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.bttn:active ,.bttn:focus, .bttn:hover ,.custom:focus , .custom:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%) ;
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.bttn:focus, .custom:focus {
+    background-color:  hsl(185, 41%, 84%);
+} 
+.custom{
+    background-color: hsl(189, 41%, 97%);
+    font-weight: bold;
+    color: hsl(186, 14%, 43%);
+}
+
+#displayInput {
+    display: none; 
+}
+
+.amount-div{
+    background-color: hsl(183, 100%, 15%); 
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.tip, .total{
+    font-size: 0.8rem;
+}
+.tip span, .total span{
+    font-size: 0.7rem;
+    opacity: 0.5;
+}
+.amounts{
+    color:  hsl(172, 67%, 45%);  
+}
+.title{
+    color: hsl(186, 14%, 43%);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+input[type="number"] , input[type="number"]:focus{
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(183, 100%, 15%);
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    background-color:  hsl(189, 41%, 97%);
+}
+ 
+input[type="number"]:focus {
+    border: 2px solid hsl(172, 67%, 45%); 
+}
+
+input[type="number"]:focus:invalid{
+    border: 2px solid #ff8d8d; 
+}
+input[type="number"]::placeholder{
+    color: hsl(184, 14%, 56%);
+}
+
+.resetBtn{
+    background-color:  hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.resetBtn:hover, .resetBtn:focus {
+    background-color: hsl(185, 41%, 84%);
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
